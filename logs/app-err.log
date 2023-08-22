@@ -1,0 +1,1 @@
+2023-08-21 09:01:05: [HPM] Error occurred while trying to proxy request /static/home.js from localhost:3000 to http://127.0.0.1:4000 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
