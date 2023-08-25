@@ -5,7 +5,7 @@ import s from './style.css';
 function Home(props) {
   useStyles(s);
   function ck() {
-    console.log('ccccc');
+    console.log('ccccc', b);
   }
   return (
     <div>

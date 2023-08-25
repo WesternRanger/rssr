@@ -22,6 +22,7 @@ module.exports = (app) => {
                 os: 'Android'
             }
         ]
+        console.log('list======', JSON.stringify(list));
         ctx.body = list;
     });
 

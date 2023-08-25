@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
+    "lint": "npx eslint src/**/**/*.js",
+    "lintcss": "npx csslint src/**/**/*.css",
     "commitLint": "npx commitlint --from HEAD~1 --to HEAD --verbose",
     "build:server": "npx webpack --config build/webpack.server.js",
     "build:client": "npx webpack --config build/webpack.client.js",
@@ -33,6 +35,9 @@
     "@commitlint/config-conventional": "^17.7.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "csslint": "^1.0.5",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
     "isomorphic-style-loader": "^5.3.2",
     "koa-http2-proxy": "^0.0.4",
